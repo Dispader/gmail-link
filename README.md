@@ -67,6 +67,13 @@ This is the extracted URL from a functioning link:
 https://mail.google.com/a/umn.edu/#inbox/13f62a30179692eb
 </pre>
 
+This is the RESTful-style URL from the location line of a Google Mail thread:
+
+<pre>
+https://mail.google.com/mail/ca/u/0/#inbox/141b796e773c4f19
+</pre>
+
+
 TODO
 ----
 
