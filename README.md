@@ -58,6 +58,15 @@ This is the complete HTML list item from a fucntioning cross-domain Todoist task
 &lt;/li&gt;
 </pre>
 
+Link formatting
+---------------
+
+This is the extracted URL from a functioning link:
+
+<pre>
+https://mail.google.com/a/umn.edu/#inbox/13f62a30179692eb
+</pre>
+
 TODO
 ----
 
