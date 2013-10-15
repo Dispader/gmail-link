@@ -81,6 +81,8 @@ The following constructed URL tests as functioning:
 https://mail.google.com/a/umn.edu/#inbox/141b796e773c4f19
 </pre>
 
+note: The <pre>/a/</pre> path element is somehow relevant.  Removing or replacing this portion of the path element does casues the URL to return an error.
+
 TODO
 ----
 
