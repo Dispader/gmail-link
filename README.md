@@ -28,7 +28,7 @@ https://mail.google.com/a/umn.edu/#inbox/13f62a30179692eb
 Todoist task list item formatting
 ---------------------------------
 
-This is the inner most HTML hyperlink:
+This is the inner most HTML hyperlink from a functioning cross-domain Todoist task:
 
 <pre>
 &lt;a onclick="return linkRedirecter(this)" target="_blank" class="ex_link" href="https://mail.google.com/a/umn.edu/#inbox/13f62a30179692eb"&gt;Web Migrations for this weekend&lt;/a&gt;
@@ -36,7 +36,7 @@ This is the inner most HTML hyperlink:
 
 The link includes the Google domain, and fucntions in both domain-authenticated environments.
 
-This is the complete item:
+This is the complete HTML list item from a fucntioning cross-domain Todoist task:
 
 <pre>
 &lt;li class="task_item history_item item_110881999 indent_1" id="item_110881999"&gt;
@@ -63,4 +63,4 @@ TODO
 
 Extract the relevant JavaScript which senses Google Mail item.
 
-- suspicion: URL analysis of the HTTP request
+- suspicion: URL analysis of the HTTP requested
