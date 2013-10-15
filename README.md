@@ -57,3 +57,10 @@ This is the complete item:
   &lt;/table&gt;
 &lt;/li&gt;
 </pre>
+
+TODO
+----
+
+Extract the relevant JavaScript which senses Google Mail item.
+
+- suspicion: URL analysis of the HTTP request
