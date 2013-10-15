@@ -73,6 +73,13 @@ This is the RESTful-style URL from the location line of a Google Mail thread:
 https://mail.google.com/mail/ca/u/0/#inbox/141b796e773c4f19
 </pre>
 
+Note that this URL loses the encoded domain information and includes extraneous path elements.  It will not function cross-domain.
+
+The following constructed URL tests as functioning:
+
+<pre>
+https://mail.google.com/a/umn.edu/#inbox/141b796e773c4f19
+</pre>
 
 TODO
 ----
