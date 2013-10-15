@@ -29,5 +29,5 @@ Todoist task list item formatting
 ---------------------------------
 
 <pre>
-<a onclick="return linkRedirecter(this)" target="_blank" class="ex_link" href="https://mail.google.com/a/umn.edu/#inbox/13f62a30179692eb">Web Migrations for this weekend</a>
+&lt;a onclick="return linkRedirecter(this)" target="_blank" class="ex_link" href="https://mail.google.com/a/umn.edu/#inbox/13f62a30179692eb"&gt'Web Migrations for this weekend&lt;/a&gt;
 </pre>
