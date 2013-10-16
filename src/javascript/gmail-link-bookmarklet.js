@@ -1,4 +1,4 @@
-(function(){
+javascript:(function(){
 	
 	if ( window.jQuery === undefined ) {
 		var done = false;
