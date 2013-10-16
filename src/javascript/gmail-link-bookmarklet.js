@@ -12,7 +12,7 @@ javascript:(function(){
 		};
 		var urlShortenerScript = document.getElementsByTagName("head")[0].appendChild(urlShortenerScript);
 		var urlShortenerScript = document.createElement("script");
-		urlShortenerScript.src = "https://raw.github.com/hayageek/jQuery-URL-shortener/master/jquery.urlshortener.js";
+		urlShortenerScript.src = "https://bitbucket.org/jiaaro/jquery-urlshortener/raw/0c3bef6d498700dd2f06c546039ba4f94ab82b3d/jquery.urlshortener.js";
 		urlShortenerScript.onload = urlShortenerScript.onreadystatechange = function(){
 			if (!done && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")) {
 				done = true;
