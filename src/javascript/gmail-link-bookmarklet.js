@@ -17,8 +17,8 @@
 	
 	function initMyBookmarklet() {
 		(window.myBookmarklet = function() {
-			var locationURL = window.location.pathname;
-			alert(locationURL);
+  			var hash = window.location["hash"]
+  			alert(hash);
 		})();
 	}
 
