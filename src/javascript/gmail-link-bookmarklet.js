@@ -1,13 +1,9 @@
 (function(){
 
-	// the minimum version of jQuery we want
-	var v = "1.3.2";
-
-	// check prior inclusion and version
-	if (window.jQuery === undefined || window.jQuery.fn.jquery < v) {
+	if ( window.jQuery === undefined ) {
 		var done = false;
 		var script = document.createElement("script");
-		script.src = "http://ajax.googleapis.com/ajax/libs/jquery/" + v + "/jquery.min.js";
+		script.src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js";
 		script.onload = script.onreadystatechange = function(){
 			if (!done && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")) {
 				done = true;
@@ -21,7 +17,7 @@
 	
 	function initMyBookmarklet() {
 		(window.myBookmarklet = function() {
-			// your JavaScript code goes here!
+			alert("your JavaScript code goes here!");
 		})();
 	}
 
